@@ -6,11 +6,11 @@ ruby RUBY_VERSION
 # to use GitHub Pages
 # gem "github-pages", group: :jekyll_plugins
 
-gem "github-pages", "~> 225", group: :jekyll_plugins
+gem "github-pages", "~> 226", group: :jekyll_plugins
 
 # If you have any plugins, put them here!
 group :jekyll_plugins do
-   gem "jemoji"
+   gem "jemoji", ">= 0.13.0"
    gem 'jekyll-redirect-from'
    gem "jekyll-remote-theme"
 end
